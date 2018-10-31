@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0}
+
+#video {
+   /* position: absolute; */
+   height: 100%;
+   z-index: -1;
+   display: inline-block;
+   
+}
+.cover {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.stuff {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    font-size: 2em;
+    color: white;
+    z-index: 1;
+}
+.stuff h1 {
+    display: inline-block;
+}
+
+body {
+    /* overflow: hidden; */
+}
